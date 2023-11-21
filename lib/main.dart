@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
       title: 'recicla',
       initialRoute: 'onboard',
       routes: {
-        'onboard': (_) => OnboardPage(),
-        'login': (_) => LoginPage(),
-        'registro': (_) => RegistroPage(),
+        'onboard': (_) => const OnboardPage(),
+        'login': (_) => const LoginPage(),
+        'registro': (_) => const RegistroPage(),
         'roles': (_) => RolesPage(),
         "cliente/home": (_) => ClienteHomePage(),
         'cliente/update': (_) => ClienteUpdatePage(),
