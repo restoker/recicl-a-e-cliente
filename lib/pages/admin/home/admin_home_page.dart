@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class RolesPage extends StatelessWidget {
-  const RolesPage({super.key});
+class AdminHomePage extends StatelessWidget {
+  const AdminHomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Hola Desde RolesPage'),
+        child: Text('Hola Desde AdminHomePage'),
       ),
     );
   }
